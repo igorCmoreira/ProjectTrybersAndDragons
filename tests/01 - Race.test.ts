@@ -1,5 +1,5 @@
 describe('01 - Classe Race', () => {
-  it('A classe Race existe', () => {
+  it.only('A classe Race existe', () => {
     expect('Races.exists').toCompile();
   });
   it('A classe Race é abstrata', () => {
