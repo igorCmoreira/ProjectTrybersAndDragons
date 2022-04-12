@@ -3,6 +3,7 @@ import Fighter from './Fighter/Fighter';
 import getRandomInt from './utils';
 import Race, { Elf } from './Races';
 import Archetype, { Mage } from './Archetypes';
+import SimpleFighter from './Fighter/SimpleFighter';
 
 export default class Character implements Fighter {
   private _race: Race;
@@ -50,11 +51,11 @@ export default class Character implements Fighter {
     return this._lifePoints;
   }
 
-  public attack(enemy: Fighter): void {
+  public attack(enemy: (Fighter | SimpleFighter)): void {
     enemy.receiveDamage(this.strength);
   }
 
-  public special(enemy: Fighter): void {
+  public special(enemy: (Fighter | SimpleFighter)): void {
     enemy.receiveDamage(this.strength * getRandomInt(1.5, 5));
   }
 
