@@ -4,6 +4,7 @@ import { EnergyType } from '../Energy';
 class Necromancer extends Archetype {
   private _damage: EnergyType;
   private static _necromancerInstances = 0;
+  
   constructor(name: string) {
     super(name);
     this._damage = 'mana';

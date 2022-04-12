@@ -4,6 +4,7 @@ import { EnergyType } from '../Energy';
 class Ranger extends Archetype {
   private _damage: EnergyType;
   private static _rangerInstances = 0;
+  
   constructor(name: string) {
     super(name);
     this._damage = 'stamina';

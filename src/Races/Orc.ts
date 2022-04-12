@@ -6,8 +6,8 @@ class Orc extends Race {
   
   constructor(name: string, dexterity: number) {
     super(name, dexterity);
-    this._maxLifePoints = 74;
     Orc._orcInstances += 1;
+    this._maxLifePoints = 74;
   }
   
   get maxLifePoints():number { return this._maxLifePoints; }
