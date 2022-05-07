@@ -1,6 +1,6 @@
-## Boas vindas ao repositório do projeto Trybers and Dragons!
+# Boas vindas ao repositório do projeto Trybers and Dragons!
 
-# Habilidades para este projeto
+## Habilidades para este projeto
 
 - Conhecimento dos pilares da `Programação Orientada a Objetos`: `Herança`, `Abstração`, `Encapsulamento` e `Polimorfismo`;
 - Utilização de `Composição`;
@@ -16,7 +16,7 @@ Para este projeto, foi aplicado os principios de arquitetura `SOLID` e os princi
 
 ---
 
-# Abra o projeto em sua maquina.
+## Abra o projeto em sua maquina.
 
 1. Clone o repositório
 
@@ -30,7 +30,7 @@ Para este projeto, foi aplicado os principios de arquitetura `SOLID` e os princi
 
 ---
 
-# Contextualizando
+## Contextualizando
 
 No universo de Trybers and Dragons - T&D, quase todos os seres que andam por estas terras pertencem a uma **raça** definida.
 
