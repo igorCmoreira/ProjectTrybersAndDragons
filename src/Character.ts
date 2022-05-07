@@ -7,8 +7,8 @@ import SimpleFighter from './Fighter/SimpleFighter';
 
 export default class Character implements Fighter {
   private _race: Race;
-  private _defense: number;
   private _energy: Energy;
+  private _defense: number;
   private _strength: number;
   private _dexterity: number;
   private _lifePoints: number;
