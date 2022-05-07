@@ -16,7 +16,7 @@ Para este projeto, foi aplicado os principios de arquitetura `SOLID` e os princi
 
 ---
 
-# Instruções para entregar seu projeto.
+# Abra o projeto em sua maquina.
 
 1. Clone o repositório
 
@@ -39,7 +39,3 @@ As diversas raças (como, por exemplo, Élfica, Orc ou Anã) definem as caracter
 Alguns seres também possuem uma **energia** e, ao treinarem o uso da energia, passam a possuir um **arquétipo**. De modo gera, os arquétipos definem, a vocação de um personagem, suas habilidades e visão de mundo: como encaram as situações, exploram masmorras ou enfrentam monstros. Como exemplos de arquétipos presentes em T&D, podemos citar guerreiro, mago e necromante.
 
 Boa parte dos seres podem ser considerados lutadores, bastando para isso possuir alguns atributos específicos e em diversas ocasiões podem acontecer lutas entre personagens diversos, bem como entre personagens e monstros.
-
-Agora, cabe a você, nobre ~~dev~~, explorar essas terras e cumprir as quests que surgirão ao longo de sua incrível ~~jornada~~ leitura do README.
-
-**_Now, follow ~~the blind~~ the dungeon master!_**.
